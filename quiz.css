@@ -1,0 +1,198 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #007BFF;
+}
+
+/* Quiz container */
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Topic selection */
+#topic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.topic {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.topic:hover {
+    background-color: #0056b3;
+}
+
+/* Quiz questions and options */
+#question-container {
+    text-align: center;
+}
+
+#question {
+    margin-top: 0;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.option:hover {
+    background-color: #ddd;
+}
+
+#next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#next-button:hover {
+    background-color: #0056b3;
+}
+
+#score {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #333;
+}
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Quiz container */
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Background color for the main quiz container */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+/* Style for the final score container */
+.final-score-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1d8ed9; /* Change the background color here */
+    color: #fff; /* Change the text color to make it readable on the background */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center align the content */
+    font-size: 24px; /* Adjust the font size for the final score */
+    margin-top: 20px; /* Add margin to separate it from the quiz container */
+}
+
+
+/* Topic selection */
+/* Style for the quiz container */
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Background color for the quiz container */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center align the content */
+}
+
+/* Style for the final score container */
+.final-score-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Background color for the final score container */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center align the content */
+    font-size: 24px; /* Adjust the font size for the final score */
+    margin-top: 20px; /* Add margin to separate it from the quiz container */
+}
+
+#topic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #007BFF; /* Background color for the topic selection container */
+    padding: 20px; /* Add some padding for spacing */
+    border-radius: 5px;
+    margin-top: 20px; /* Add margin to separate it from the main quiz container */
+}
+
+.topic {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #fff; /* Background color for the topic buttons */
+    color: #007BFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.topic:hover {
+    background-color: #0056b3;
+}
+
+/* ... (Rest of the CSS remains the same) */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .quiz-container {
+        padding: 10px;
+    }
+
+    .topic {
+        margin: 5px;
+    }
+
+    .option {
+        margin: 2px;
+    }
+}

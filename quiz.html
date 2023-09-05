@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Time!</h1>
+        <div id="question-container">
+            <p id="question">Question goes here.</p>
+        </div>
+        <div id="topic-container" class="hidden">
+            <button class="topic" onclick="startQuiz('geography')">Geography</button>
+            <button class="topic" onclick="startQuiz('science')">Science</button>
+            <button class="topic" onclick="startQuiz('history')">History</button>
+        </div>
+            <div id="quiz-container" style="display: none;">
+            <h2 id="question"></h2>
+            <div id="options-container"></div>
+            <button id="next-button" onclick="nextQuestion()" disabled>Next</button>
+                
+        <div class="final-score-container"><p id="score"></p></div>
+        </div>
+    </div>
+    
+</body>
+</html>
